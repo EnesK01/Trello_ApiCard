@@ -7,6 +7,7 @@ org.json 20240303-->API yanıtlarını parse etmek ya da JSON formatında veri o
 junit 4.13.2-->Test anotasyonları ile testleri başlatmak için kullanıldı.
 io.rest-assured 5.3.0--> Restful Api'ların testi ve gönderilen istekler  dönen yanıtların doğruluğunun sağlanması için kullanıldı.
 TestNG 7.10.2--> Testleri organize etmek ayrıyeten Junit de mevcut olmayan bazı anotasyonlar(BeforSuite vb.) için kullanıldı.
+--Not:Pom.xml dosyası üzerinden gerekli bağımlılıkların kurulduğundan emin olunmalıdır.
 
 Testlerin Çalıştırılması:
 Card ve board işlemleri için ayrı paketler ve atılan HTTP isteği tipine göre ayrı klaslar oluşturuldu.
