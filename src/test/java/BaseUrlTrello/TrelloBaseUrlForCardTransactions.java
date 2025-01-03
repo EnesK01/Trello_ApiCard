@@ -3,10 +3,11 @@ package BaseUrlTrello;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Before;
+import org.testng.annotations.BeforeSuite;
 
 ;
 
-public class TrelloBaseUrl {
+public class TrelloBaseUrlForCardTransactions {
     protected RequestSpecification trelloCardTransactionsBaseUrl;
 
     @Before
