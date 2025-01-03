@@ -11,4 +11,4 @@ TestNG 7.10.2--> Testleri organize etmek ayrıyeten Junit de mevcut olmayan baz�
 
 Testlerin Çalıştırılması:
 Card ve board işlemleri için ayrı paketler ve atılan HTTP isteği tipine göre ayrı klaslar oluşturuldu.
-TrelloBoardTransactionsApiTest ve TrelloBoardTransactionsApiTest paketlerinin altındaki klaslarda bulunan HTTP metod tiplerine göre ayrılan her bir testler içlerinde bulunan test anatosyonu ile çalıştırılabilir.
+TrelloBoardTransactionsApiTest , TrelloBoardTransactionsApiTest paketlerinin altında HTTP metod tiplerine göre ayrılan klaslar mevcuttur. Klaslar içerisinde bulunan test anotasyonundan testler çalıştırılabilir.
